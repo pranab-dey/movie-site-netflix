@@ -34,7 +34,7 @@ export const Break = styled.div`
 export const Button = styled.button`
 	display: flex;
 	align-items: center;
-	height: 50px;
+	height: 60px;
 	background: #e50914;
 	color: white;
 	text-transform: uppercase;
@@ -42,6 +42,8 @@ export const Button = styled.button`
 	font-size: 20px;
 	border: 0;
 	cursor: pointer;
+	font-weight: bold;
+	letter-spacing: 0.5px;
 
 	&:hover {
 		background: #c80000;
@@ -70,7 +72,7 @@ export const Input = styled.input`
 	width: 100%;
 	border: 0;
 	padding: 10px;
-	height: 50px;
+	height: 60px;
 	box-sizing: border-box;
 	font-size: 18px;
 	letter-spacing: 0.1px;
