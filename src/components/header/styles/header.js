@@ -73,6 +73,11 @@ export const SearchInput = styled.input`
 	opacity: ${({ active }) => (active === true ? '1' : '0')};
 	width: ${({ active }) => (active === true ? '200px' : '0px')};
 
+	&::placeholder {
+		font-size: 16px;
+		letter-spacing: 1px;
+	}
+
 	&:focus {
 		background-color: rgba(0, 0, 0, 0.8);
 	}
